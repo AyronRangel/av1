@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<!-- GITHUB: https://github.com/AyronRangel/av1.git -->
+<html>
+    <head>
+        <title>Fundamental Matemática</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="default.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body onload="myFunction()">
+
+        <!-- HEADER -->
+        <div id="header">
+            <h1><img src="images/logo-pref.png" style="width: 178px;"></h1>
+        </div>
+        <!-- HEADER -->
+
+        <!-- CONTENT -->
+        <div id="content">
+            <div id="posts">
+                <div class="post">
+                    <h2 class="title">Bem vindo ao Curso de Capacitação</h2>
+                    <h3 class="posted">Desenvolvido por Ayron Rangel</h3>
+                    <div class="story">
+                        <p><em><strong>Você</strong></em> foi convidado a participar do desafio do ensino fundamental
+                            de matématica da <strong><a href="http://www.macae.rj.gov.br/" >Prefeitura Municipal de Macaé</a></strong>.
+                            Você deverá passar por quatro histórias. Somente após passar em uma etapa, você poderá ir para a próxima história.</p>
+
+                    </div>
+                </div>
+                <!-- QUESTION A -->
+                <div id="questionA">
+                    <div class="post">
+                        <h2>História 1</h2>
+                        <div class="story">
+                            <p>Com a finalidade de testar seus conhecimentos de soma de números inteiros. Você tera que acertar o resultado da soma de dois números inteiros para aprovação</p> 
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <p id="n1" class="box"></p>
+                    </div>
+                    <img src="images/plus.png" class="simbolo">
+
+                    <div class="campo">
+                        <p id="n2" class="box2"></p>
+                    </div>
+
+                    <img src="images/equal.png" class="simbolo2">
+
+                    <input id="resultado" type="number">
+
+                    <button class="btn" type="button" onclick="soma()">Verificar</button>
+                    
+                    <div id="goH2">
+                        <p><a href="#questionB">Ir para História 2 -></a></p>
+                    </div>
+                </div>
+                <!-- QUESTION A -->
+                
+                <!-- QUESTION B -->
+                <div id="questionB">
+                    <div class="post">
+                        <h2>História 2</h2>
+                        <div class="story">
+                            <p>Com a finalidade de testar seus conhecimentos de dimunir de números inteiros. Você tera que acertar o resultado da soma de dois números inteiros para aprovação</p> 
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <p id="n3" class="box"></p>
+                    </div>
+                    <img src="images/minus.png" class="simbolo">
+
+                    <div class="campo">
+                        <p id="n4" class="box2"></p>
+                    </div>
+
+                    <img src="images/equal.png" class="simbolo2">
+
+                    <input id="resultado2" type="number">
+
+                    <button class="btn" type="button" onclick="diminuir()">Verificar</button>
+                    
+                    <div id="goH2">
+                        <p><a href="#questionC">Ir para História 3 -></a></p>
+                    </div>
+                </div>
+                <!-- QUESTION B -->
+                <!-- QUESTION C -->
+                <div id="questionC">
+                    <div class="post">
+                        <h2>História 3</h2>
+                        <div class="story">
+                            <p>Com a finalidade de testar seus conhecimentos de multiplicar de números inteiros. Você tera que acertar o resultado da soma de dois números inteiros para aprovação</p> 
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <p id="n5" class="box"></p>
+                    </div>
+                    <img src="images/multiplay.png" class="simbolo">
+
+                    <div class="campo">
+                        <p id="n6" class="box2"></p>
+                    </div>
+
+                    <img src="images/equal.png" class="simbolo2">
+
+                    <input id="resultado3" type="number">
+
+                    <button class="btn" type="button" onclick="multiplicar()">Verificar</button>
+                    
+                    <div id="goH2">
+                        <p><a href="#questionD">Ir para História 3 -></a></p>
+                    </div>
+                </div>
+                <!-- QUESTION C -->
+                <!-- QUESTION D -->
+                <div id="questionD">
+                    <div class="post">
+                        <h2>História 4</h2>
+                        <div class="story">
+                            <p>Com a finalidade de testar seus conhecimentos de dividir de números inteiros. Você tera que acertar o resultado da soma de dois números inteiros para aprovação</p> 
+                        </div>
+                    </div>
+                    <div class="campo">
+                        <p id="n7" class="box"></p>
+                    </div>
+                    <img src="images/division.png" class="simbolo">
+
+                    <div class="campo">
+                        <p id="n8" class="box2"></p>
+                    </div>
+
+                    <img src="images/equal.png" class="simbolo2">
+
+                    <input id="resultado4" type="number">
+
+                    <button class="btn" type="button" onclick="dividir()">Verificar</button>
+                    
+                </div>
+                <!-- QUESTION D -->
+
+               
+            </div>
+        </div>
+        <!-- CONTENT -->
+
+        <!-- QUESTIONS-->
+        <div id="questions" class="boxed">
+            <h2 class="heading">Histórias</h2>
+            <div class="content">
+                <ul>
+                    <li><a href="#questionA">História 1 - Soma de Números</a></li>
+                    <li><a href="#questionB">História 2 - Subtração de Números</a></li>
+                    <li><a href="#questionC">História 3 - Multip. de Números</a></li>
+                    <li><a href="#questionD">História 4 - Divisão de Números</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- QUESTIONS -->
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
